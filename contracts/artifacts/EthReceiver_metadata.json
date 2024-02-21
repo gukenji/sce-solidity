@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/37. Sending Ether.sol": "EthReceiver"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/37. Sending Ether.sol": {
+			"keccak256": "0x43522a6936608cb23fcd2b445f76456b6d2e2669562c521cf83f0cd51d72f9c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e089379800cc3a30d9c281da89adbad6e3768532f2024125416f8f5e28f6649",
+				"dweb:/ipfs/Qma93NByrpZ8YHJYJo6JJqwP8wCZvkcnoh5KiFdyM1QUZE"
+			]
+		}
+	},
+	"version": 1
+}

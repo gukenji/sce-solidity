@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/27. Array Replace List.sol": "ArrayReplaceLast"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/27. Array Replace List.sol": {
+			"keccak256": "0x81cde727a4eb51ae07b692c8fe874e4a02b87de7a3cd74b6926b80257a34c8d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7e90983822624ee421e4b0e2a69adf4242b7c39ec7ba7f87c9a1bdcf57b4c17",
+				"dweb:/ipfs/QmWkvRGTtdDUMVFt8Hgn6HuePP3Ebp7WfJ8HmgsVbaTKxM"
+			]
+		}
+	},
+	"version": 1
+}
