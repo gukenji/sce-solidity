@@ -21,6 +21,20 @@ A --> B --> C
                 execute conde on B's state variables
                 use ETH on B
 */
+
+/*
+Q: 
+I had a doubt regarding the use of encodeWithSelector and encodeWithSignature. I understand that if the signature is modified, then it is better to use encodeWithSelector.
+But once the contract is deployed on the network, is it modifiable?
+Because if it wasn't, in theory, wouldn't it be the same?
+
+A: 
+Once the contract is deployed, it is only modifiable if the contract is an upgradeable proxy.
+Here are my recommendation on which function to use from worst to best
+encodeWithSignature - both function signature and inputs can be incorrect
+encodeCall - only inputs can be incorrect
+encodeWithSelector - both function signature and inputs are checked at compile time
+*/
                 
 contract DelegateCall {
     uint256 public num;

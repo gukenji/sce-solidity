@@ -48,11 +48,11 @@
 	},
 	"sources": {
 		"contracts/52. Re-entrancy.sol": {
-			"keccak256": "0x0d44a50504e1483d30e808dceb30b2990e7da34fd58f04f6987dedeecc9ea4c9",
+			"keccak256": "0xdf492d719f547e69136f98f87092beafed628d2190421f20da8cc98e0efc144c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://09f47cc2f4df3cbefb47722cb0c6398fd20369169c136140f79e168e54bd99f9",
-				"dweb:/ipfs/QmeyDrtdyRi8Z8VBvSsY8USw2HPVRw5YmadfRtR6Y7mvAt"
+				"bzz-raw://ddf2e621d816c9108a8a3b34599d0a3440cc2bb54646c9bfa437eca1ffb24aed",
+				"dweb:/ipfs/QmUEX5xkBmJ9XnSkiixomxtFyWfDRuWyLFyxwDtd47wywU"
 			]
 		}
 	},

