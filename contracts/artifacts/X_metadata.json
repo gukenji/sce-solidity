@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/30. Multiple Inheritance.sol": {
-			"keccak256": "0x1a04dc96117f0d22f5ae92371a669e4c0d5560f4db6af24e13c60d133456124f",
+			"keccak256": "0x004ac0b4b0ed963a81426f86afe01edcd2b2074eabbcb3b9bb536386d2e7bbf8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a5249e8195756cbc87a993668b21585664b4ec6557d3136c9ab2b61e4eed38bf",
-				"dweb:/ipfs/QmZPqAt86dRA8cYz7NpWoRTK5jYL6DXCwV7Y83ehm9TbKD"
+				"bzz-raw://4e79628a8b7ff49f40ad42bfac1de915b68fd58e4922e250aa4247c348126572",
+				"dweb:/ipfs/QmTJR25c7Wa1ai225jVMCiai2773ksz54UrPw66je9jQo9"
 			]
 		}
 	},

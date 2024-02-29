@@ -6,24 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_text",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "name",
+				"name": "bar",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -31,12 +15,12 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "text",
+				"name": "foo",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -44,7 +28,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -61,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/31. Calling Parent Constructors.sol": "Z"
+			"contracts/30. Multiple Inheritance.sol": "Z"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -75,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/31. Calling Parent Constructors.sol": {
-			"keccak256": "0x87b9e83c6cdb8a9e044991dbbc3b48180c269d0b52aa6011e09cfdd39c823374",
+		"contracts/30. Multiple Inheritance.sol": {
+			"keccak256": "0x004ac0b4b0ed963a81426f86afe01edcd2b2074eabbcb3b9bb536386d2e7bbf8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7270f218decb680e28775115fb75f8afec876fd32e51a0fbbc2ce98a3eb5e5ee",
-				"dweb:/ipfs/QmPGrVE9JnDgBnZSTPj4ndTQfA1yABuUrizcMBVVj3Zg6P"
+				"bzz-raw://4e79628a8b7ff49f40ad42bfac1de915b68fd58e4922e250aa4247c348126572",
+				"dweb:/ipfs/QmTJR25c7Wa1ai225jVMCiai2773ksz54UrPw66je9jQo9"
 			]
 		}
 	},

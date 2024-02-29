@@ -6,29 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "bar",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/30. Multiple Inheritance.sol": "Y"
+			"Modules/Solidity/54. Create2.sol": "DeployWithCreate2"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/30. Multiple Inheritance.sol": {
-			"keccak256": "0x004ac0b4b0ed963a81426f86afe01edcd2b2074eabbcb3b9bb536386d2e7bbf8",
+		"Modules/Solidity/54. Create2.sol": {
+			"keccak256": "0xba22ea1f24f57316cc48c4f1a57cb4c69c76fafe4cb528576d6c3441428e2fc3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e79628a8b7ff49f40ad42bfac1de915b68fd58e4922e250aa4247c348126572",
-				"dweb:/ipfs/QmTJR25c7Wa1ai225jVMCiai2773ksz54UrPw66je9jQo9"
+				"bzz-raw://62f4f458a3fd4016249ea41c8950f9c5a341461ad198e308316a43934349fcf0",
+				"dweb:/ipfs/QmeqKohMt1a2ssXMaqqjP3vJidVAzUVKZxk4fTsAXCzVRZ"
 			]
 		}
 	},

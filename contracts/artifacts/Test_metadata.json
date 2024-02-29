@@ -7,16 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "payable",
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -33,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/52. Re-entrancy [hack].sol": "IEthBank"
+			"contracts/test.sol": "Test"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -47,12 +46,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/52. Re-entrancy [hack].sol": {
-			"keccak256": "0x0a0e7891cb28bacbd8f229c3c8bb69ecbd247c8df3faec7ddbbf46435c8508ef",
-			"license": "MIT",
+		"contracts/test.sol": {
+			"keccak256": "0x3d8a44d8fc5c5f59c58db8ee274d9f2062cefe0a987adb609383b0fe51ab3fd0",
 			"urls": [
-				"bzz-raw://0de4e0301fb73635c36c17f74c5d40bb8f9478402d38b45b3c37860245ab4020",
-				"dweb:/ipfs/QmcT28NXPXYpwRfGhW88hza5vg8GZDqa5Lv6Sr85FsFA5f"
+				"bzz-raw://fae0f3adbfab82b28367526a15727e2548e46836c3a91956f3cd08e435c2477f",
+				"dweb:/ipfs/QmVWikAmy2fkpsbpgafZyEZCZKFFADVcuhqQZfyY5mroGH"
 			]
 		}
 	},

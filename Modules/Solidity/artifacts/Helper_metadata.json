@@ -6,13 +6,24 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "bar",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "getFunc1Data",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bytes",
 						"name": "",
-						"type": "string"
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "pure",
@@ -20,12 +31,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "getFunc2Data",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bytes",
 						"name": "",
-						"type": "string"
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "pure",
@@ -45,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/30. Multiple Inheritance.sol": "Y"
+			"Modules/Solidity/57. Multi Delegatecall.sol": "Helper"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/30. Multiple Inheritance.sol": {
-			"keccak256": "0x004ac0b4b0ed963a81426f86afe01edcd2b2074eabbcb3b9bb536386d2e7bbf8",
+		"Modules/Solidity/57. Multi Delegatecall.sol": {
+			"keccak256": "0xf6aa817ac2e919ab6adee780153e9249182c3ed8a86400258a64ad7958818a84",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e79628a8b7ff49f40ad42bfac1de915b68fd58e4922e250aa4247c348126572",
-				"dweb:/ipfs/QmTJR25c7Wa1ai225jVMCiai2773ksz54UrPw66je9jQo9"
+				"bzz-raw://63ebf43c0101b2afb008f5ecb64266bc5f912fdbd269376f2761aa58e873e645",
+				"dweb:/ipfs/QmYrxiaZJgV5TNjv8c6RdiXwWu1BcDJdg7TcWohCYP2h1t"
 			]
 		}
 	},

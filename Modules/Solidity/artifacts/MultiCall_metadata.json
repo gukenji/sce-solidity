@@ -6,29 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "bar",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "address[]",
+						"name": "targets",
+						"type": "address[]"
+					},
+					{
+						"internalType": "bytes[]",
+						"name": "data",
+						"type": "bytes[]"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
+				"name": "multiCall",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bytes[]",
 						"name": "",
-						"type": "string"
+						"type": "bytes[]"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/30. Multiple Inheritance.sol": "Y"
+			"Modules/Solidity/53. Multi Call.sol": "MultiCall"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/30. Multiple Inheritance.sol": {
-			"keccak256": "0x004ac0b4b0ed963a81426f86afe01edcd2b2074eabbcb3b9bb536386d2e7bbf8",
+		"Modules/Solidity/53. Multi Call.sol": {
+			"keccak256": "0x487ea187a05160a33c0b9cae6292bf29d84891628381bb41484539ccae2f791a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e79628a8b7ff49f40ad42bfac1de915b68fd58e4922e250aa4247c348126572",
-				"dweb:/ipfs/QmTJR25c7Wa1ai225jVMCiai2773ksz54UrPw66je9jQo9"
+				"bzz-raw://b63f6c2da10f1f4ffd31076147c86e4def448a59756daa0e9dab0889e2878d7c",
+				"dweb:/ipfs/QmT4pQpM4f9VZr4TzRuEC6roMRq3Ujob4w9rAsVW3WatfU"
 			]
 		}
 	},

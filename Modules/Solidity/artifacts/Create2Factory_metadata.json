@@ -6,39 +6,36 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "address",
-						"name": "_bank",
+						"name": "addr",
 						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "Deploy",
+				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "bank",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_salt",
+						"type": "uint256"
+					}
+				],
+				"name": "deploy",
 				"outputs": [
 					{
-						"internalType": "contract IEthBank",
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pwn",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -54,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/52. Re-entrancy [hack].sol": "EthBankExploit"
+			"Modules/Solidity/54. Create2.sol": "Create2Factory"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -68,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/52. Re-entrancy [hack].sol": {
-			"keccak256": "0x0a0e7891cb28bacbd8f229c3c8bb69ecbd247c8df3faec7ddbbf46435c8508ef",
+		"Modules/Solidity/54. Create2.sol": {
+			"keccak256": "0xba22ea1f24f57316cc48c4f1a57cb4c69c76fafe4cb528576d6c3441428e2fc3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0de4e0301fb73635c36c17f74c5d40bb8f9478402d38b45b3c37860245ab4020",
-				"dweb:/ipfs/QmcT28NXPXYpwRfGhW88hza5vg8GZDqa5Lv6Sr85FsFA5f"
+				"bzz-raw://62f4f458a3fd4016249ea41c8950f9c5a341461ad198e308316a43934349fcf0",
+				"dweb:/ipfs/QmeqKohMt1a2ssXMaqqjP3vJidVAzUVKZxk4fTsAXCzVRZ"
 			]
 		}
 	},

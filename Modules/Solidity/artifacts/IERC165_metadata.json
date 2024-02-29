@@ -6,29 +6,22 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "bar",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "bytes4",
+						"name": "interfaceID",
+						"type": "bytes4"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
+				"name": "supportsInterface",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/30. Multiple Inheritance.sol": "Y"
+			"Modules/Solidity/52. ERC721.sol": "IERC165"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/30. Multiple Inheritance.sol": {
-			"keccak256": "0x004ac0b4b0ed963a81426f86afe01edcd2b2074eabbcb3b9bb536386d2e7bbf8",
+		"Modules/Solidity/52. ERC721.sol": {
+			"keccak256": "0xccd32b16752a4afe1f8e1a12b9db4ce5e496661a7653ee4440ad9373d2ebcaf8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e79628a8b7ff49f40ad42bfac1de915b68fd58e4922e250aa4247c348126572",
-				"dweb:/ipfs/QmTJR25c7Wa1ai225jVMCiai2773ksz54UrPw66je9jQo9"
+				"bzz-raw://15367c82860085317bf2889014a9d5883bf7da9cc6a7383368f267f6b53e7958",
+				"dweb:/ipfs/QmVmnQNuGDtUJK6MqSFafaxZQLwNMn6aLhDgFFRvbeSxiB"
 			]
 		}
 	},

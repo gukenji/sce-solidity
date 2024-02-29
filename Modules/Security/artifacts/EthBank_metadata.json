@@ -9,21 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_bank",
+						"name": "",
 						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "bank",
+				"name": "balances",
 				"outputs": [
 					{
-						"internalType": "contract IEthBank",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -31,14 +26,17 @@
 			},
 			{
 				"inputs": [],
-				"name": "pwn",
+				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
 				"stateMutability": "payable",
-				"type": "receive"
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -54,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/52. Re-entrancy [hack].sol": "EthBankExploit"
+			"Modules/Security/1. Re-entrancy.sol": "EthBank"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -68,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/52. Re-entrancy [hack].sol": {
-			"keccak256": "0x0a0e7891cb28bacbd8f229c3c8bb69ecbd247c8df3faec7ddbbf46435c8508ef",
+		"Modules/Security/1. Re-entrancy.sol": {
+			"keccak256": "0x9e3ddfb7c75b007bff6d78c1044108a5ec2de1f32882d9234a8f942163db3c07",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0de4e0301fb73635c36c17f74c5d40bb8f9478402d38b45b3c37860245ab4020",
-				"dweb:/ipfs/QmcT28NXPXYpwRfGhW88hza5vg8GZDqa5Lv6Sr85FsFA5f"
+				"bzz-raw://fbdd6fbd88d87d53f1421e925ec1bb9291cd74eb10326845167bc5cd2fc34262",
+				"dweb:/ipfs/QmPruH9sVadDXybRdsKVdhGfpGYLuJ5hzgukG7pappqXXs"
 			]
 		}
 	},

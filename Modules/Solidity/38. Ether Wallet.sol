@@ -14,7 +14,7 @@ contract EtherWallet {
 
     function withdraw(uint _amount) external {
         require(msg.sender == owner, "caller is not owner");
-        // owner.transfer(_amount); // use more gas  -> using sotrage variable owner
+        // owner.transfer(_amount); // use more gas  -> using storage variable owner
         payable(msg.sender).transfer(_amount); // use less gas -> not using storage variable owner
 
         // (bool sent, ) = msg.sender.call{value: _amount}("");

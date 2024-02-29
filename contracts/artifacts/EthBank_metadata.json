@@ -52,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/52. Re-entrancy.sol": "EthBank"
+			"contracts/52. Re-entrancy [hack].sol": "EthBank"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -66,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/52. Re-entrancy.sol": {
-			"keccak256": "0xdf492d719f547e69136f98f87092beafed628d2190421f20da8cc98e0efc144c",
+		"contracts/52. Re-entrancy [hack].sol": {
+			"keccak256": "0x0a0e7891cb28bacbd8f229c3c8bb69ecbd247c8df3faec7ddbbf46435c8508ef",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ddf2e621d816c9108a8a3b34599d0a3440cc2bb54646c9bfa437eca1ffb24aed",
-				"dweb:/ipfs/QmUEX5xkBmJ9XnSkiixomxtFyWfDRuWyLFyxwDtd47wywU"
+				"bzz-raw://0de4e0301fb73635c36c17f74c5d40bb8f9478402d38b45b3c37860245ab4020",
+				"dweb:/ipfs/QmcT28NXPXYpwRfGhW88hza5vg8GZDqa5Lv6Sr85FsFA5f"
 			]
 		}
 	},

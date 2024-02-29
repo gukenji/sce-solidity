@@ -6,22 +6,29 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_bank",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "bank",
+				"name": "getBalance",
 				"outputs": [
 					{
-						"internalType": "contract IEthBank",
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
 						"name": "",
 						"type": "address"
 					}
@@ -30,10 +37,16 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "pwn",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -54,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/52. Re-entrancy [hack].sol": "EthBankExploit"
+			"Modules/Solidity/38. Ether Wallet.sol": "EtherWallet"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -68,12 +81,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/52. Re-entrancy [hack].sol": {
-			"keccak256": "0x0a0e7891cb28bacbd8f229c3c8bb69ecbd247c8df3faec7ddbbf46435c8508ef",
+		"Modules/Solidity/38. Ether Wallet.sol": {
+			"keccak256": "0xa9d344efcf4db99ee133303b70938b0fae41f42cf6d170335d5fa8fce8a9f5fe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0de4e0301fb73635c36c17f74c5d40bb8f9478402d38b45b3c37860245ab4020",
-				"dweb:/ipfs/QmcT28NXPXYpwRfGhW88hza5vg8GZDqa5Lv6Sr85FsFA5f"
+				"bzz-raw://9f010b7b17750b1123e767a6b7fd206306076316d40bf7c2cea745b658368a98",
+				"dweb:/ipfs/Qmdmt8bKXZggAN8xACukxsEzdnugJNTMTbgutggME7k8LV"
 			]
 		}
 	},

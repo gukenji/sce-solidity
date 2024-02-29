@@ -7,28 +7,16 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "bar",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "foo",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -45,7 +33,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/30. Multiple Inheritance.sol": "Y"
+			"Modules/Security/1. Re-entrancy.sol": "IEthBank"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +47,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/30. Multiple Inheritance.sol": {
-			"keccak256": "0x004ac0b4b0ed963a81426f86afe01edcd2b2074eabbcb3b9bb536386d2e7bbf8",
+		"Modules/Security/1. Re-entrancy.sol": {
+			"keccak256": "0x9e3ddfb7c75b007bff6d78c1044108a5ec2de1f32882d9234a8f942163db3c07",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e79628a8b7ff49f40ad42bfac1de915b68fd58e4922e250aa4247c348126572",
-				"dweb:/ipfs/QmTJR25c7Wa1ai225jVMCiai2773ksz54UrPw66je9jQo9"
+				"bzz-raw://fbdd6fbd88d87d53f1421e925ec1bb9291cd74eb10326845167bc5cd2fc34262",
+				"dweb:/ipfs/QmPruH9sVadDXybRdsKVdhGfpGYLuJ5hzgukG7pappqXXs"
 			]
 		}
 	},
