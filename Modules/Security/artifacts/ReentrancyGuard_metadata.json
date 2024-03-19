@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "exec",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Security/11. Reentrancy Guard.sol": "ReentrancyGuard"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Security/11. Reentrancy Guard.sol": {
+			"keccak256": "0xc76a215372e43f4bc9e8e9b67e6249104bf45328846fb39d8cf448a7a9569d59",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e6c011d28e697c2091a6bc88486dcf62e439d796f9ae176081474ea45ab4e7c",
+				"dweb:/ipfs/QmaheJq9BTpYVAyhHZq9KbNLu6wsD2QafiHHs69yZBnpED"
+			]
+		}
+	},
+	"version": 1
+}

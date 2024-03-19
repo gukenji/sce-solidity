@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "rpow",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Solidity/76. Assembly Binary Exponentiation.sol": "AssemblyBinExp"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Solidity/76. Assembly Binary Exponentiation.sol": {
+			"keccak256": "0x018edf38d4742e9ed31ec68af75b4b096ac5b01f9d8b92d0945c11c709c6a552",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b5440a5f313ee3609cee82ddef0b5237ea9d3320c1653a65cb193107a1cec406",
+				"dweb:/ipfs/QmXxMbDKHmMAwx9WWSNNW7voUjFYWx38xGZqwhTCewjh5K"
+			]
+		}
+	},
+	"version": 1
+}

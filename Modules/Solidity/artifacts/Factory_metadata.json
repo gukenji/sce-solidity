@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Solidity/64. Simple Bytecode Contract.sol": "Factory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Solidity/64. Simple Bytecode Contract.sol": {
+			"keccak256": "0x590ffb3720c695fa2f9174d9bf6e3d0562cc1c644049f6f6368efb199b7ef126",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://226826c06819ac86a51e9ed32d80a3bf7ae3a4d58904e9657b332aef54f23646",
+				"dweb:/ipfs/QmPGWyUh2m94waJiTUiCrrrZ2BPnJw11N6QpkeYfK9MF2Y"
+			]
+		}
+	},
+	"version": 1
+}

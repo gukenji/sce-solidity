@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "revert_if_zero",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "yul_revert",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Solidity/73. Assembly Error.sol": "AssemblyError"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Solidity/73. Assembly Error.sol": {
+			"keccak256": "0x9416bcfeaa70dce83122932eece03040955aafd417c3fb28ecf4baa7c6dd88ff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://69658a373e571e0b2690bbec4a4eaa7ebe4e182a7d6dd60537a46e654b80d7bb",
+				"dweb:/ipfs/QmNdRaicLqJqjegznm2ZBfzEJMNy2GBjSJqzjmkN6TQoKr"
+			]
+		}
+	},
+	"version": 1
+}

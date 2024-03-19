@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "func",
+						"type": "bytes4"
+					}
+				],
+				"name": "execute",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Security/10. Function Selector.sol": "IFunctionSelector"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Security/10. Function Selector.sol": {
+			"keccak256": "0x8e0b12f4bc85d56579d2d0b7fb2246e73d838e547579db2cfba04f033c3b970c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8af92f509f92e64b08bad4f3548bd4db0f1001d4eccb239888808d72ebbc3527",
+				"dweb:/ipfs/QmNphMQFh6oKZ6MkLPxgy8eEbgv2DowpKGpwcZ8M4HXpa9"
+			]
+		}
+	},
+	"version": 1
+}

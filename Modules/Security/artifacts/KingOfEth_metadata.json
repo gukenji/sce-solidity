@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "king",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "play",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Security/3. King of ETH.sol": "KingOfEth"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Security/3. King of ETH.sol": {
+			"keccak256": "0x65bc5d65b56f2b9ada74038b2ee37ecb007df653198763cfd72f105a89bbca69",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eadbcbcbcdb43e94e5b240bb7c3de085487e5c6cd8c1feb425a8b56aaca63152",
+				"dweb:/ipfs/QmUvAK9wtiBCNcNJC4phz8bxQGhxTpzpyXpknJeNSCDiNq"
+			]
+		}
+	},
+	"version": 1
+}

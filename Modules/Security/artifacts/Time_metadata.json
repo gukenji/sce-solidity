@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "This library provides helpers for manipulating time-related objects. It uses the following types: - `uint48` for timepoints - `uint32` for durations While the library doesn't provide specific types for timepoints and duration, it does provide: - a `Delay` type to represent duration that can be programmed to change value automatically at a given point - additional helper functions",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Security/GEGE.sol": "Time"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Security/GEGE.sol": {
+			"keccak256": "0x41df687ab3545c87d079230a38383dea6df98b3aee29fd444f60d7e0fab9b344",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff529b393506775486cae7f6097ccc9975622b68fb4bfebf94e4d00715ac1e45",
+				"dweb:/ipfs/QmQ3vEK9Xe4khZ47juNGTAbtL7LNKTtBDCAKUxJq3YaKVA"
+			]
+		}
+	},
+	"version": 1
+}

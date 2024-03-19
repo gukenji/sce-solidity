@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "findMostSignificantBit",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "r",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Solidity/62. Most Significant Bit .sol": "MostSignificantBit"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Solidity/62. Most Significant Bit .sol": {
+			"keccak256": "0xbae27ce3bd09bafb4317de01f9ea6fb4d56dc8b9ca485cb4d6f1e1c1b526ddba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f70fc093a0232e339615ecc6de6adfca76a2aa0c6e4b59c34e5ec239dbdb7495",
+				"dweb:/ipfs/QmRaX1CeUUTaYW4LcVNFFibbttsDGxgvBTh9eZcCvub5sx"
+			]
+		}
+	},
+	"version": 1
+}

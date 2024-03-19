@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Solidity/67. Write to any slot.sol": "StorageSlot"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Solidity/67. Write to any slot.sol": {
+			"keccak256": "0x93fc0733aef2dfe1a787d9deb03d66a97df78b5257bddcef8f592b75f75c660a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://53fabbe59a626680f2402c67de3d92f142121068bda5ea076db1fe4f7ac24369",
+				"dweb:/ipfs/Qmbdv48uoVwZsXV5maoLxoQjtDJjezcsGJJTyJjUtpJmfW"
+			]
+		}
+	},
+	"version": 1
+}

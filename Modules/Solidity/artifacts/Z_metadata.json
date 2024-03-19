@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Modules/Solidity/30. Multiple Inheritance.sol": "Z"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Modules/Solidity/30. Multiple Inheritance.sol": {
+			"keccak256": "0x004ac0b4b0ed963a81426f86afe01edcd2b2074eabbcb3b9bb536386d2e7bbf8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e79628a8b7ff49f40ad42bfac1de915b68fd58e4922e250aa4247c348126572",
+				"dweb:/ipfs/QmTJR25c7Wa1ai225jVMCiai2773ksz54UrPw66je9jQo9"
+			]
+		}
+	},
+	"version": 1
+}
